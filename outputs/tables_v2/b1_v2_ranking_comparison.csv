@@ -1,0 +1,6 @@
+Drug,rank_v1,t50_median_v1,rank_v2,t50_median_v2,rank_changed
+Venlafaxine XR,1,6.6,1,12.8,FALSE
+Venlafaxine IR,2,10.3,2,13.2,FALSE
+Paroxetine,3,15.6,3,22.3,FALSE
+Sertraline,4,16.9,4,26.2,FALSE
+Fluoxetine + NFX,5,349.4,5,368.4,FALSE

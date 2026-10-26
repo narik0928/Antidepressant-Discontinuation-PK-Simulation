@@ -45,7 +45,7 @@ dir.create(OUT_DIR, showWarnings = FALSE, recursive = TRUE)
 
 set.seed(2025)
 
-N          <- 100     # 먼저 100으로 테스트. 통과하면 10000으로 바꿔서 본 실행.
+N          <- 10000     # 먼저 100으로 테스트. 통과하면 10000으로 바꿔서 본 실행.
 BATCH_SIZE <- 1000
 
 source(file.path(BASE, "data", "pk_parameters", "pk_parameters_v2.R"))

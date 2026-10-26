@@ -1,0 +1,6 @@
+Drug,Label parent t1/2 (h),Simulated median t50% C0 (h),Ratio (simulated / label)
+Sertraline,26,26.2,1.01
+Fluoxetine + NFX,153,368.4,2.41
+Paroxetine,21,22.3,1.06
+Venlafaxine IR,5,13.2,2.64
+Venlafaxine XR,5,12.8,2.57

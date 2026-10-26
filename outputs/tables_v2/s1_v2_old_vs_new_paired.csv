@@ -1,0 +1,6 @@
+Drug,drug,n_paired,Css_v1_ngmL_median,legacy_Css_v2_ngmL_median,C0_v2_ngmL_median,pct_C0_lower_than_legacyCss_sameF,pct_legacyCss_higher_than_Css_v1,pct_C0_lower_than_Css_v1,t50_v1_median,t50_v2_median_reached,n_reached_v2,n_censored_v2,n_NA_v1,spearman_rho_t50
+Sertraline,Sertraline,10000,59.2,59.2,44.9,100,0,100,16.9,26.2,10000,0,476,0.9999999968502912
+Fluoxetine + NFX,Fluoxetine,10000,139.4,198.9,195.3,99.4,100,0,349.4,368.4,10000,0,290,0.9997232408408198
+Paroxetine,Paroxetine,10000,23.2,46.4,32.6,100,100,17.9,15.6,22.3,9987,13,1805,0.9999999967663867
+Venlafaxine IR,Venlafaxine_IR,10000,64.7,143.7,122.1,100,100,0.1,10.3,13.2,10000,0,30,0.9888564844027822
+Venlafaxine XR,Venlafaxine_XR,10000,64.4,143.2,92.3,100,100,13.7,6.6,12.8,10000,0,1996,0.9547879817524633

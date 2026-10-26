@@ -1,0 +1,5 @@
+drug,H,df,p_value,eta_sq,magnitude
+Fluoxetine,906.89,2,< 0.001,0.091,moderate
+Paroxetine,2196.24,2,< 0.001,0.22,large
+Venlafaxine_IR,628.16,2,< 0.001,0.063,moderate
+Venlafaxine_XR,549.03,2,< 0.001,0.055,small

@@ -1,0 +1,8 @@
+Drug,Std_dose,Tmax_sim_h,Tmax_label_range_h,Tmax_flag,thalf_sim_h,thalf_analytical_h,thalf_label_range_h,thalf_flag,Css_sim_parent_ngmL,Css_sim_met_ngmL,Css_sim_total_ngmL,Css_label_range_ngmL,Css_flag,Overall,Source
+Sertraline,50 mg QD,6.25,4.5–8.4,PASS,26,26,22–36,PASS,55.7,NA,NA,20–60,PASS,PASS,FDA label (Zoloft); Vd 출처 재확인 필요(unsourced_pending)
+Fluoxetine,20 mg QD,7,6–8,PASS,152.5,152.5,120–192,PASS,79.1,80.8,159.9,—,N/A,PASS,FDA label (Prozac); parent 단독 Css 범위는 저자 재확인 필요 — v1의 Ctotal 추정 범위 제거
+Norfluoxetine,—,NA,—,N/A,237.7,223,192–384,PASS,NA,80.8,NA,—,N/A,PASS,FDA label (Prozac)
+Paroxetine,20 mg QD,5.25,3–8,PASS,21,21,7–65,PASS,41.3,NA,NA,30–100,PASS,PASS,FDA label (Paxil); Li 2022 (Tmax only)
+Venlafaxine IR,25 mg TID,1.75,1–2.5,PASS,4,4,3–7,PASS,33.8,89.2,123,—,N/A,PASS,FDA label (Effexor XR 2012); parent 단독 Css 범위는 저자 재확인 필요
+Venlafaxine XR,75 mg QD,4.75,4–8,PASS,4.1,4,3–7,PASS,34,89.1,123.1,—,N/A,PASS,FDA label (Effexor XR 2012); parent 단독 Css 범위는 저자 재확인 필요
+ODV,—,NA,—,N/A,9.9,9.9,9–13,PASS,NA,89.1,NA,—,N/A,PASS,FDA label (Effexor XR 2012)
