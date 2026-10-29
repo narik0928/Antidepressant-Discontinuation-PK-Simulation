@@ -1,0 +1,6 @@
+drug,n,mean_frac96,median_frac96,mean_frac120,median_frac120,Drug
+Sertraline,10000,0.1201,0.085,0.0799,0.0459,Sertraline
+Fluoxetine,10000,0.8025,0.8194,0.7614,0.7788,Fluoxetine + NFX
+Paroxetine,10000,0.0924,0.0478,0.061,0.0224,Paroxetine
+Venlafaxine_IR,10000,0.0288,0.0111,0.0145,0.0034,Venlafaxine IR
+Venlafaxine_XR,10000,0.0271,0.0105,0.0135,0.0032,Venlafaxine XR

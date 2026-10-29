@@ -1,0 +1,6 @@
+Drug,Label parent t1/2 (h),Model implemented t1/2 median (h),Model t1/2 / label t1/2,Model t50%C0 median (h),t50%C0 / implemented t1/2
+Sertraline,27.2,26.99,0.992,26.99,1
+Fluoxetine + NFX,152.5,155.01,1.016,323.26,2.085
+Paroxetine,21,21.88,1.042,21.89,1
+Venlafaxine IR,5.5,5.44,0.988,16.52,3.038
+Venlafaxine XR,5.5,5.42,0.985,16.04,2.959

@@ -1,0 +1,16 @@
+Part,Item,Observed_ngmL_or_h,Model_ngmL_or_h,Model_over_Obs,Source,Note
+(a) 보정 목표,"Sertraline 200 mg/day x30d, AUC0-24 (ng.h/mL)",2570,2570.01,1,Zoloft 2009 FDA label,보정 목표(CL/F가 이 값에서 역산됨) -- 검증 아님(각주)
+(a) 보정 목표,"Paroxetine 30 mg/day x30d, Cmax (ng/mL)",61.7,56.81,0.921,Paxil 2017 FDA label,보정 목표 -- 검증 아님(각주)
+(a) 보정 목표,"Paroxetine 30 mg/day x30d, Cmin (ng/mL)",30.7,33.42,1.089,Paxil 2017 FDA label,보정 목표 -- 검증 아님(각주)
+(a) 보정 목표,"Venlafaxine XR 150 mg QD, Cmax parent (ng/mL)",150,150.01,1,Effexor XR 2017 FDA label Table 16,"보정 목표(D7, brentq) -- 검증 아님(각주)"
+(a) 보정 목표,"Venlafaxine XR 150 mg QD, Cmax ODV (ng/mL)",260,259.96,1,Effexor XR 2017 FDA label Table 16,"보정 목표(D7, brentq) -- 검증 아님(각주)"
+(b) 독립 점검,"Sertraline 200 mg/day x30d, Cmax (ng/mL)",142,127.25,0.896,Zoloft 2009 FDA label,독립 점검(보정에 쓰지 않음 -- 보정은 AUC만 씀)
+(b) 독립 점검,"Fluoxetine 40 mg/day x30d, trough (ng/mL)",NA,145.45,NA,Prozac 2008 FDA label (범위 91-302),라벨 채혈시점 불명 -- 모델 최저농도(trough)와 비교(각주)
+(b) 독립 점검,"Norfluoxetine 40 mg/day x30d, trough (ng/mL)",NA,122.94,NA,Prozac 2008 FDA label (범위 72-258),라벨 채혈시점 불명 -- 모델 최저농도(trough)와 비교(각주)
+(b) 독립 점검,NFX:FLX ratio (trough 기준),0.86,0.85,0.983,"Sagahon-Azua 2021 Table 1 (중앙값 0.86, IQR 0.57-1.23)",환자별 비의 중앙값과 비교. 원 연구 채혈은 마지막 복용 후 중앙값 11.0h(IQR 3.9-24.7h)로 불균일 -- 모델은 trough(tau=24h) 기준이라 직접 비교엔 한계
+(b) 독립 점검,"Venlafaxine IR 75 mg BID, Cmax parent (ng/mL)",225,142.23,0.632,Effexor XR 2017 FDA label Table 16,"독립 점검(D7 보정은 XR만 씀, IR은 쓰지 않음)"
+(b) 독립 점검,"Venlafaxine IR 75 mg BID, Cmax ODV (ng/mL)",290,245.6,0.847,Effexor XR 2017 FDA label Table 16,"독립 점검(D7 보정은 XR만 씀, IR은 쓰지 않음)"
+(b) 독립 점검,"ODV:venlafaxine ratio (평균농도, IR 75mg BID 기준)",NA,2.51,NA,Klamerus 1992 초록 (AUC 비 2-3배),venlafaxine + ODV 평균농도 비. Klamerus는 AUC 비를 보고 -- 정상상태에서는 평균농도 비와 동일
+(b) 독립 점검,"Paroxetine 30 mg/day, NM(EM) 정상상태 최저농도 (ng/mL)",27,33.42,1.238,Sindrup 1992 51:278-87 초록 (중앙값 81 nmol/L x0.33),"독립 점검(다른 연구, 다른 대상군 -- Paxil 라벨과 별개)"
+(b) 독립 점검,"Paroxetine 30 mg/day, PM 정상상태 최저농도 (ng/mL)",50,66.64,1.333,Sindrup 1992 51:278-87 초록 (중앙값 151 nmol/L x0.33),독립 점검. CL x0.58(D5) 적용
+(b) 독립 점검,"Paroxetine 22.7 mg/day(평균), NM 아침 투여 직전 농도 (ng/mL)",34.4,25.29,0.735,"Liao 2024 Table 1 (기하평균 34.4, 95%CI 31.3-37.7)",독립 점검. 모델을 Liao의 평균 용량(22.7mg/day)으로 재실행

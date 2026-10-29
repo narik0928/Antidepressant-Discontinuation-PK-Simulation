@@ -3,3 +3,5 @@
 .Rproj.user/
 data/simulation_outputs/*.csv
 .DS_Store
+논문/
+*.bak_pre_addendum2

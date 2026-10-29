@@ -1,0 +1,16 @@
+drug,N,mean_median_t50,CV_t50_pct,mean_pct_censored25,sd_pct_censored25,mean_pm_effect_r,sd_pm_effect_r
+Fluoxetine,2000,324.56,0.36,0.02,0.03,NA,NA
+Fluoxetine,5000,324.95,1.05,0.01,0.01,NA,NA
+Fluoxetine,10000,321.63,0.88,0,0.01,NA,NA
+Paroxetine,2000,22.25,0.52,0,0,-0.448,0.023
+Paroxetine,5000,21.74,1.18,0,0,-0.505,0.023
+Paroxetine,10000,21.85,0.65,0,0,-0.461,0.03
+Sertraline,2000,27.49,0.38,0,0,NA,NA
+Sertraline,5000,27.46,1.43,0,0,NA,NA
+Sertraline,10000,27.31,1.03,0,0,NA,NA
+Venlafaxine_IR,2000,16.54,0.77,0,0,NA,NA
+Venlafaxine_IR,5000,16.48,1.16,0,0,NA,NA
+Venlafaxine_IR,10000,16.38,0.56,0,0,NA,NA
+Venlafaxine_XR,2000,16.07,0.95,0,0,NA,NA
+Venlafaxine_XR,5000,15.99,0.98,0,0,NA,NA
+Venlafaxine_XR,10000,15.93,0.43,0,0,NA,NA

@@ -1,0 +1,7 @@
+Drug,thalf_sim_h,thalf_analytical_h,thalf_label,Note
+Sertraline,27.2,27.2,22-36 h (FDA label 범위),
+Paroxetine (NM),21,21,"7-65 h (FDA label 범위, 넓음 -- 비선형)",
+Fluoxetine,152.5,152.5,96-144 h (Prozac 만성투여 4-6일),"모델 t1/2가 라벨 범위보다 깁니다 -- 그대로 보고(H7, 판정 아님)"
+Norfluoxetine,230.5,223,96-384 h (Prozac 만성투여 4-16일),v2 Table 2의 120-192h/192-384h 범위는 라벨 원문과 다름 -- 쓰지 않음(7-3)
+Venlafaxine,5.6,5.5,"3-7 h (라벨, 5+-2h)",
+ODV,13.2,13.1,"9-13 h (라벨, 11+-2h)","모델 13.1h는 상한 13h에 근접/약간 초과 -- D7 근거 요약(4절) 참고, 판정 아님"

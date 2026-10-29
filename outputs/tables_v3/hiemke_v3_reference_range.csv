@@ -1,0 +1,6 @@
+Drug,Hiemke range (ng/mL),n,% below,% within,% above
+Fluoxetine + NFX,120-500 (parent+norfluoxetine 합),10000,22.69,77.19,0.12
+Paroxetine,20-65 (parent만),10000,22.87,60.17,16.96
+Sertraline,10-150 (parent만),10000,11.44,88.56,0
+Venlafaxine IR,100-400 (parent+ODV 합),10000,15.12,84.34,0.54
+Venlafaxine XR,100-400 (parent+ODV 합),10000,32.81,66.97,0.22

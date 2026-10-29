@@ -1,0 +1,21 @@
+Drug,metric,reached / N,n_censored,n_calc_failed
+Sertraline,t75%,10000 / 10000,0,0
+Sertraline,t50%,10000 / 10000,0,0
+Sertraline,t25%,10000 / 10000,0,0
+Sertraline,t10%,10000 / 10000,0,0
+Fluoxetine + NFX,t75%,10000 / 10000,0,0
+Fluoxetine + NFX,t50%,10000 / 10000,0,0
+Fluoxetine + NFX,t25%,10000 / 10000,0,0
+Fluoxetine + NFX,t10%,9994 / 10000,6,0
+Paroxetine,t75%,10000 / 10000,0,0
+Paroxetine,t50%,10000 / 10000,0,0
+Paroxetine,t25%,10000 / 10000,0,0
+Paroxetine,t10%,9998 / 10000,2,0
+Venlafaxine IR,t75%,10000 / 10000,0,0
+Venlafaxine IR,t50%,10000 / 10000,0,0
+Venlafaxine IR,t25%,10000 / 10000,0,0
+Venlafaxine IR,t10%,9999 / 10000,1,0
+Venlafaxine XR,t75%,10000 / 10000,0,0
+Venlafaxine XR,t50%,10000 / 10000,0,0
+Venlafaxine XR,t25%,10000 / 10000,0,0
+Venlafaxine XR,t10%,10000 / 10000,0,0
