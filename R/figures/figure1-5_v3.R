@@ -333,10 +333,12 @@ p_fig3 <- ggplot(df3, aes(x = drug_label, y = t_50pct, fill = split, colour = sp
                linewidth = 0.40, colour = "grey30") +
   annotate("text", x = 0.42, y = 24, label = "1 day", size = 2.6, colour = "grey50", hjust = 0) +
   annotate("text", x = 0.42, y = 168, label = "7 days", size = 2.6, colour = "grey50", hjust = 0) +
-  scale_fill_manual(values = cyp2d6_colors, labels = cyp2d6_labels, name = NULL,
-                     breaks = c("poor", "normal")) +
-  scale_colour_manual(values = cyp2d6_colors, labels = cyp2d6_labels, name = NULL,
-                       breaks = c("poor", "normal")) +
+  scale_fill_manual(values = cyp2d6_colors, name = NULL,
+                     breaks = c("poor", "normal"),
+                     labels = cyp2d6_labels[c("poor", "normal")]) +
+  scale_colour_manual(values = cyp2d6_colors, name = NULL,
+                       breaks = c("poor", "normal"),
+                       labels = cyp2d6_labels[c("poor", "normal")]) +
   scale_y_log10(limits = c(1, 10000),
                 breaks = c(1, 3, 6, 10, 24, 72, 168, 720, 2160, 4320, 9600),
                 labels = c("1 h", "3 h", "6 h", "10 h", "1 d", "3 d", "7 d", "30 d", "90 d", "180 d", "400 d")) +
