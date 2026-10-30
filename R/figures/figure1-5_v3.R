@@ -203,8 +203,8 @@ p1D <- ggplot(post_ven_long, aes(days, conc_ng, colour = component)) +
   base_theme + theme(legend.position = c(0.8, 0.85))
 
 fig1 <- (p1A + p1B) / (p1C + p1D)
-ggsave(file.path(FIG_DIR, "figure1_discontinuation_v3.png"), fig1,
-       width = 12, height = 9, dpi = 300)
+ggsave(file.path(FIG_DIR, "figure1_discontinuation_v3.jpg"), fig1, device = "jpeg",
+       width = 12, height = 9, units = "in", dpi = 600, quality = 100)
 cat(sprintf("\n✓ Figure 1 saved. Deterministic C0: sertraline %.1f ng/mL, paroxetine %.1f ng/mL\n",
             C0_sert, C0_par))
 
@@ -280,8 +280,8 @@ p2B <- ggplot(post_xr_long, aes(days, conc_ng, colour = component)) +
   base_theme + theme(legend.position = "bottom")
 
 fig2 <- p2A + p2B + plot_layout(guides = "collect") & theme(legend.position = "bottom")
-ggsave(file.path(FIG_DIR, "figure2_venlafaxine_IR_XR_v3.png"), fig2,
-       width = 12, height = 6, dpi = 300)
+ggsave(file.path(FIG_DIR, "figure2_venlafaxine_IR_XR_v3.jpg"), fig2, device = "jpeg",
+       width = 12, height = 6, units = "in", dpi = 600, quality = 100)
 
 # =============================================================================
 # 3. FIGURE 3 -- Monte Carlo t50% C0 distribution by drug; paroxetine split
@@ -304,7 +304,7 @@ print(status_report, n = Inf)
 drug_order <- c("Venlafaxine_XR", "Venlafaxine_IR", "Paroxetine", "Sertraline", "Fluoxetine")
 drug_labels <- c(
   "Venlafaxine_XR" = "Venlafaxine\nXR", "Venlafaxine_IR" = "Venlafaxine\nIR",
-  "Paroxetine" = "Paroxetine", "Sertraline" = "Sertraline\n(CYP2D6 N/A)",
+  "Paroxetine" = "Paroxetine", "Sertraline" = "Sertraline",
   "Fluoxetine" = "Fluoxetine\n+NFX")
 
 df3 <- results %>%
@@ -344,11 +344,11 @@ p_fig3 <- ggplot(df3, aes(x = drug_label, y = t_50pct, fill = split, colour = sp
                 labels = c("1 h", "3 h", "6 h", "10 h", "1 d", "3 d", "7 d", "30 d", "90 d", "180 d", "400 d")) +
   annotation_logticks(sides = "l", linewidth = 0.3, colour = "grey50") +
   coord_cartesian(clip = "off", xlim = c(0.5, 5.5)) +
-  labs(x = NULL, y = expression(italic(t)[50] * "% C"[0] * "  (log scale)"),
-       caption = "All 50,000 simulated patients reached the t50% C0 threshold within the observation window (Table 3).\nOnly paroxetine has a violin split by CYP2D6 phenotype (Methods 2.4.2); the other four drugs are single, unsplit violins.") +
+  labs(x = NULL, y = expression(italic(t)[50] * "% C"[0] * "  (log scale)")) +
   base_theme + theme(legend.position = "bottom")
 
-ggsave(file.path(FIG_DIR, "figure3_mc_t50_violin_v3.png"), p_fig3, width = 12, height = 7, dpi = 300)
+ggsave(file.path(FIG_DIR, "figure3_mc_t50_violin_v3.jpg"), p_fig3, device = "jpeg",
+       width = 12, height = 7, units = "in", dpi = 600, quality = 100)
 cat("\n✓ Figure 3 saved.\n")
 
 # =============================================================================
@@ -398,7 +398,8 @@ p4B <- ggplot(df4_B, aes(abs_dCdt, drug_label, fill = drug, colour = drug)) +
   base_theme + theme(legend.position = "none", panel.grid.major.y = element_blank())
 
 fig4 <- p4A + p4B + plot_layout(widths = c(1, 2.2))
-ggsave(file.path(FIG_DIR, "figure4_mc_dCdt_ridge_v3.png"), fig4, width = 13, height = 6, dpi = 300)
+ggsave(file.path(FIG_DIR, "figure4_mc_dCdt_ridge_v3.jpg"), fig4, device = "jpeg",
+       width = 13, height = 6, units = "in", dpi = 600, quality = 100)
 cat("\n✓ Figure 4 saved.\n")
 
 # =============================================================================
@@ -437,5 +438,6 @@ p_fig5 <- ggplot(df5, aes(log_t50, AUC_deficit_7d, colour = drug, fill = drug)) 
        y = "AUC deficit, 7 days (mg/L·h)") +
   base_theme + theme(legend.position = "none")
 
-ggsave(file.path(FIG_DIR, "figure5_mc_scatter_v3.png"), p_fig5, width = 11, height = 7, dpi = 300)
-cat("\n✓ Figure 5 saved. All v3 figures written to outputs/figures/*_v3.png\n")
+ggsave(file.path(FIG_DIR, "figure5_mc_scatter_v3.jpg"), p_fig5, device = "jpeg",
+       width = 11, height = 7, units = "in", dpi = 600, quality = 100)
+cat("\n✓ Figure 5 saved. All v3 figures written to outputs/figures/*_v3.jpg\n")
